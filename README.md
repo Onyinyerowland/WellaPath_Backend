@@ -10,11 +10,11 @@ offers clinic locator, symptom checker and health education
 * Optional AI modules – for symptom analysis
 # SKELETAL FRAME-WORK
 app/
-***├── main.py
-├── api/
-│   ├── auth.py
-│   ├── clinic.py
-│   ├── symptom.py
+ main.py
+ api/
+├── auth.py
+├── clinic.py
+├── symptom.py
 │   ├── education.py
 │   └── community.py
 ├── models/
