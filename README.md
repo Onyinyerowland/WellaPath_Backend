@@ -1,8 +1,16 @@
 # WellaPath a Community -Driven Ai Health Companion
 offers clinic locator, symptom checker and health education
+#  Backend architecture 
+* FastAPI – high-performance API framework
+* PostgreSQL – relational DB
+* SQLAlchemy – ORM
+* Auth – JWT-based
+* Celery + Redis – async background tasks
+* Pydantic – for validation
+* Optional AI modules – for symptom analysis
 # SKELETAL FRAME-WORK
 app/
-├── main.py
+***├── main.py
 ├── api/
 │   ├── auth.py
 │   ├── clinic.py
@@ -25,4 +33,4 @@ app/
 │   ├── user.py
 │   ├── clinic.py
 │   └── ...
-
+***
